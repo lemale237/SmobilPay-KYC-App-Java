@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".InfosAgentActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/etape_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/etape_1"
+            android:layout_marginRight="20dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/etape_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/etape_2"
+            android:textSize="15dp"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:id="@+id/etape_3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/etape_3"
+            android:textSize="15dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/etape4"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp">
+
+        <EditText
+            android:id="@+id/entreprise_agent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/entreprise_agent"
+            android:inputType="text"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_entreprise_custom"
+            android:drawableLeft="@drawable/ic_entreprise"
+            android:drawablePadding="10dp"
+            android:textColor="@color/white"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:background="@drawable/custom_input"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/smobilpay_id_utilisateur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/smobilpay_id_utilisateur"
+            android:inputType="number"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_cni_custom"
+            android:drawableLeft="@drawable/ic_cni"
+            android:drawablePadding="10dp"
+            android:textColor="@color/white"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:background="@drawable/custom_input"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/profession_agent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/profession_agent"
+            android:inputType="text"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_profession_custom"
+            android:drawableLeft="@drawable/ic_profession"
+            android:drawablePadding="10dp"
+            android:textColor="@color/white"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:background="@drawable/custom_input"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/photo_point_de_vente_agent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/photo_point_de_vente_agent"
+            android:inputType="text"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_camera_custom"
+            android:drawableLeft="@drawable/ic_camera"
+            android:drawablePadding="10dp"
+            android:textColor="@color/white"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:background="@drawable/custom_input"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/photo_point_agent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/photo_point_agent"
+            android:inputType="text"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_camera_custom"
+            android:drawableLeft="@drawable/ic_camera"
+            android:drawablePadding="10dp"
+            android:textColor="@color/white"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:background="@drawable/custom_input"
+            android:layout_marginBottom="6dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/link_to_end_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/group_11" />
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="etape1"><u><b>ETAPE 1</b></u></string>
+    <string name="etape2"><u><b>ETAPE 2</b></u></string>
+    <string name="etape3"><u><b>ETAPE 3</b></u></string>
+    <string name="etape4"><u><b>ETAPE 4</b></u></string>
+    <string name="filmer_cni"><b>Filmer la CNI</b></string>
+</resources>
